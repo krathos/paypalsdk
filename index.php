@@ -60,6 +60,8 @@
                         }).then(function(response) {
                             console.log("onApprove: ")
                             console.log(response)
+                            console.log("details: ")
+                            console.log(JSON.stringify(details))
                             if (response.ok) {
                                 alert('Transaction completed by ' + details.payer.name.given_name);
                             } else {
