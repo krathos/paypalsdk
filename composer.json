@@ -1,0 +1,7 @@
+{
+    "require": {
+        "paypal/rest-api-sdk-php": "^1.14",
+        "guzzlehttp/guzzle": "^7.3",
+        "ext-pdo": "*"
+    }
+}
